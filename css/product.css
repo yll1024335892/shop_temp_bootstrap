@@ -1,0 +1,13 @@
+.product-contain { background: #f5f5f5; }
+.product-contain .container .breadcrumb { margin-bottom: 0px; }
+.product-contain .container .field { min-width: 70px; position: relative; display: inline-block; }
+.product-contain .container .price { font-size: 22px; color: #ea471c; padding: 0 10px; }
+.product-contain .container .yx-desc { color: #005aa0; }
+.product-contain .container .hot-title { font-size: 14px; }
+.product-contain .container .hot-contain .col-md-2 { border-right: 1px solid #E8E9EC; }
+.product-contain .container .hot-contain .col-md-2:last-child { border-right: none; }
+.product-contain .container .hot-recommend h3 { font-size: 14px; background: #ddd; margin: 0px; padding: 10px; }
+.product-contain .container .product-detail-contain { padding: 0px; margin: 0px; }
+.product-contain .container .product-detail-contain .product-detail-title { background: #ddd; height: 40px; }
+.product-contain .container .product-detail-contain .product-detail-title span { background: #ea471c; color: #fff; display: inline-block; line-height: 40px; padding: 0 20px; }
+.product-contain .container .product-detail-contain .product-detail { padding: 10px; }

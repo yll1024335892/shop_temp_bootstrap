@@ -1,0 +1,17 @@
+body { position: relative; overflow: auto; }
+
+a:link, a:visited, a:hover, a:active { text-decoration: none; color: #333; cursor: pointer; }
+
+.comment-banner { background: #f6f6f6; }
+.comment-banner [data-slide='prev'] { left: 240px; }
+.comment-banner .carousel-indicators { padding-left: 240px; }
+
+.comment-sort { background: #f6f6f6; }
+.comment-sort .container h2 { margin: 10px 15px 10px 0px; padding: 0px; font-size: 24px; color: #333; font-weight: normal; border-left: 5px solid #333; }
+.comment-sort .container .row-shop { padding: 0px; margin: 0px; }
+.comment-sort .container .row-shop .sort-shop { margin: 10px 1% 10px 0; padding: 0px; width: 19%; float: left; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+.comment-sort .container .row-shop .sort-shop .thumbnail { border: none; }
+.comment-sort .container .row-shop .sort-shop .thumbnail .caption h4 del { color: #666; }
+.comment-sort .container .row-shop .sort-shop .thumbnail .caption h4 span { color: #f56600; }
+
+.float-nav { position: fixed; top: 50px; }

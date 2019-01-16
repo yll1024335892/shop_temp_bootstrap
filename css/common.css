@@ -1,0 +1,25 @@
+.commont-top { width: 100%; height: 30px; background: #f2f2f2; }
+.commont-top .container { height: 30px; }
+.commont-top .container span { line-height: 30px; padding-right: 10px; color: #666; font-size: 12px; }
+
+.comment-search { height: 155px; }
+.comment-search .container .nav-other { height: 105px; margin: 0px; }
+.comment-search .container .nav-other .comment-search-keyword { margin: 20px 0 0 0; }
+.comment-search .container .nav-other .comment-search-keyword .key { font-size: 14px; color: #666; }
+.comment-search .container .nav-other .nav-other-connect { height: 55px; margin-top: 50px; }
+.comment-search .container .nav-other .nav-other-connect img { height: 28px; width: 28px; }
+.comment-search .container .nav-other .nav-other-connect span { font-size: 12px; }
+.comment-search .container .nav-other .nav-other-connect span font { color: #22c233; }
+.comment-search .container .menu-nav { height: 40px; margin: 10px 0 0 0; }
+.comment-search .container .menu-nav .menu-nav-first { padding: 0px; margin: 0px; width: 240px; position: relative; }
+.comment-search .container .menu-nav .menu-nav-first p { margin: 0px; padding: 0px; font-size: 15px; text-align: center; line-height: 40px; background: #ea471c; color: #fff; }
+.comment-search .container .menu-nav .menu-nav-first ul { margin: 0px; padding: 0px; position: absolute; z-index: 1000; background: #fff; height: 480px; overflow: hidden; }
+.comment-search .container .menu-nav .menu-nav-first ul li { list-style: none; width: 240px; height: 53px; text-align: center; line-height: 53px; border-bottom: 1px solid #F2f2f2; }
+.comment-search .container .menu-nav .menu-nav-first ul li:nth-child(9) { border-bottom: none; }
+.comment-search .container .menu-nav .menu-nav-other { padding: 0px; margin: 0px; }
+.comment-search .container .menu-nav .menu-nav-other span { font-size: 15px; padding: 0 20px; display: inline-block; height: 40px; line-height: 40px; }
+
+.commont-footer .container .row { margin-top: 20px; }
+.commont-footer .container .row .footer-connect span { padding: 0 10px; }
+.commont-footer .container .row .footer-link-filed { margin-bottom: 20px; }
+.commont-footer .container .row .footer-link-filed span { padding: 0px 10px 0px 0px; }

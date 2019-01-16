@@ -1,0 +1,60 @@
+@import "compass/css3";
+
+.product-contain {
+  background: #f5f5f5;
+  .container {
+    .breadcrumb {
+      margin-bottom: 0px;
+    }
+    .field {
+      min-width: 70px;
+      position: relative;
+      display: inline-block;
+    }
+    .price {
+      font-size: 22px;
+      color: #ea471c;
+      padding: 0 10px;
+    }
+    .yx-desc {
+      color: #005aa0;
+    }
+    .hot-title {
+      font-size: 14px;
+    }
+    .hot-contain {
+      .col-md-2 {
+        border-right: 1px solid #E8E9EC;
+      }
+      .col-md-2:last-child {
+        border-right: none;
+      }
+    }
+    .hot-recommend {
+      h3 {
+        font-size: 14px;
+        background: #ddd;
+        margin: 0px;
+        padding: 10px;
+      }
+    }
+    .product-detail-contain {
+      padding: 0px;
+      margin: 0px;
+      .product-detail-title {
+        background: #ddd;
+        height: 40px;
+        span {
+          background: #ea471c;
+          color: #fff;
+          display: inline-block;
+          line-height: 40px;
+          padding: 0 20px;
+        }
+      }
+      .product-detail {
+        padding: 10px;
+      }
+    }
+  }
+}

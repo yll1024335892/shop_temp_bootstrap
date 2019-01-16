@@ -1,0 +1,118 @@
+@import "compass/css3";
+//导航栏
+.commont-top {
+  width: 100%;
+  height: 30px;
+  background: #f2f2f2;
+  .container {
+    height: 30px;
+    span {
+      line-height: 30px;
+      padding-right: 10px;
+      color: #666;
+      font-size: 12px;
+    }
+  }
+}
+
+//搜索处
+.comment-search {
+  height: 155px;
+  .container {
+    .nav-other {
+      height: 105px;
+      margin: 0px;
+      .comment-search-keyword {
+        margin: 20px 0 0 0;
+        .key {
+          font-size: 14px;
+          color: #666;
+        }
+      }
+      .nav-other-connect {
+        height: 55px;
+        margin-top: 50px;
+        img {
+          height: 28px;
+          width: 28px;
+        }
+        span {
+          font-size: 12px;
+          font {
+            color: #22c233;
+          }
+        }
+      }
+    }
+    .menu-nav {
+      height: 40px;
+      margin: 10px 0 0 0;
+      .menu-nav-first {
+        padding: 0px;
+        margin: 0px;
+        width: 240px;
+        position: relative;
+        p {
+          margin: 0px;
+          padding: 0px;
+          font-size: 15px;
+          text-align: center;
+          line-height: 40px;
+          background: #ea471c;
+          color: #fff;
+        }
+        ul {
+          margin: 0px;
+          padding: 0px;
+          position: absolute;
+          z-index: 1000;
+          background: #fff;
+          height: 480px;
+          overflow: hidden;
+          li {
+            list-style: none;
+            width: 240px;
+            height: 53px;
+            text-align: center;
+            line-height: 53px;
+            border-bottom: 1px solid #F2f2f2;
+          }
+          li:nth-child(9){
+            border-bottom: none;
+          }
+        }
+      }
+      .menu-nav-other {
+        padding: 0px;
+        margin: 0px;
+        span {
+          font-size: 15px;
+          padding: 0 20px;
+          display: inline-block;
+          height: 40px;
+          line-height: 40px;
+        }
+      }
+    }
+  }
+}
+
+//底部
+.commont-footer {
+  .container {
+    .row {
+      margin-top: 20px;
+      .footer-connect {
+        span {
+          padding: 0 10px;
+        }
+      }
+      .footer-link-filed {
+        margin-bottom: 20px;
+        span {
+          padding: 0px 10px 0px 0px;
+        }
+      }
+    }
+  }
+}

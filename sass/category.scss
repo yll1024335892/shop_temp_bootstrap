@@ -1,0 +1,8 @@
+@import "compass/css3";
+.category-contain{
+  background: #f5f5f5;
+  .sort-shop{ width: 24%; float: left; margin: 0 1% 0 0; @include  border-radius(5);}
+  .category-contain-page{
+    clear:both;
+  }
+}

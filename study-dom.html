@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学习浏览器的的一些距离问题</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="contain"></div>
+<style type="text/css">
+    .contain {
+        height: 5000px;
+        width: 2000px;
+    }
+</style>
+<script type="text/javascript">
+    $(function () {
+        var $body=$("body");
+        var $div=$(".contain");
+        var $window = $(window);
+        $window.on("scroll",function () {
+//            console.log("body.clientTop",$body.clientTop);
+//            console.log("页可见区域宽： document.body.clientWidth",document.body.clientHeight);
+//            console.log("网页可见区域宽： document.body.offsetWidth（包含边线的宽）",document.body.offsetWidth);
+//            console.log("网页可见区域高： document.body.offsetHeight （包含边线的宽）",document.body.offsetHeight);
+//            console.log("网页正文全文宽： document.body.scrollWidth",document.body.scrollWidth);
+//            console.log("网页正文全文高： document.body.scrollHeight",document.body.scrollHeight);
+//            console.log("网页被卷去的高： document.body.scrollTop",document.body.scrollTop);
+//            console.log("网页被卷去的左： document.body.scrollLeft",document.body.scrollLeft);
+            console.log("网页正文项目组上： window.screenTop",$window.scrollTop());
+           console.log("网页正文项目组左： window.screenLeft",$window.screenLeft());
+            console.log("屏幕辨别率的高： window.screen.height",window.screen.height);
+           console.log("屏幕辨别率的宽： window.screen.width",window.screen.width);
+            console.log("屏幕可用工作区高度： window.screen.availHeight",window.screen.availHeight);
+        });
+    });
+</script>
+</body>
+</html>
